@@ -1,4 +1,4 @@
-/*
+
 class TreeNode{
 	int data;
 	TreeNode left;
@@ -10,7 +10,7 @@ class TreeNode{
 		this.right = null;
 	}
 }
-*/
+
 class Solution{
   public boolean isBalanced(TreeNode root){
     return checkHeightBalanced(root) != -1;
