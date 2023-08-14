@@ -51,3 +51,57 @@ class Solution {
         return postfix.toString();
     }
 }
+
+// import java.util.*;
+
+// class Main {
+//     public static void main(String args[]) throws Exception {
+//         Scanner sc = new Scanner(System.in);
+//         String input = sc.nextLine();
+//         System.out.println(infixToPostfix(input));
+//     }
+
+//     private static int getPriority(char ch) {
+//         switch (ch) {
+//             case '+':
+//             case '-':
+//                 return 1;
+//             case '*':
+//             case '/':
+//                 return 2;
+//             case '^':
+//                 return 3;
+//             default:
+//                 return -1; // Not an operator
+//         }
+//     }
+
+//     public static String infixToPostfix(String exp) {
+//         StringBuilder postfix = new StringBuilder();
+//         Stack<Character> stack = new Stack<>();
+
+//         for (char ch : exp.toCharArray()) {
+//             if (Character.isLetterOrDigit(ch)) {
+//                 postfix.append(ch);
+//             } else if (ch == '(') {
+//                 stack.push(ch);
+//             } else if (ch == ')') {
+//                 while (!stack.isEmpty() && stack.peek() != '(') {
+//                     postfix.append(stack.pop());
+//                 }
+//                 stack.pop(); // Pop '(' from the stack
+//             } else { // Operator
+//                 while (!stack.isEmpty() && getPriority(ch) <= getPriority(stack.peek())) {
+//                     postfix.append(stack.pop());
+//                 }
+//                 stack.push(ch);
+//             }
+//         }
+
+//         while (!stack.isEmpty()) {
+//             postfix.append(stack.pop());
+//         }
+
+//         return postfix.toString();
+//     }
+// }
