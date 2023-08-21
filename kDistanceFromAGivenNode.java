@@ -62,4 +62,14 @@ class Solution{
     }
 }
 
-
+// private void collectNodesAtDistanceK(TreeNode node, int k, List<Integer> result) {
+//         if (node == null || k < 0) {
+//             return;
+//         }
+//         if (k == 0) {
+//             result.add(node.data); 
+//             return;
+//         }
+//         collectNodesAtDistanceK(node.left, k - 1, result);
+//         collectNodesAtDistanceK(node.right, k - 1, result);
+//     }
