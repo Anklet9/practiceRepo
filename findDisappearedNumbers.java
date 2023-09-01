@@ -21,3 +21,26 @@ class Solution {
         return missingNumbers;
     }
 }
+// USING CYCLIC SORT TIME COMPLEXITY O(N)
+// class Solution {
+//     public List<Integer> findDisappearedNumbers(int[] nums) {
+//         int i = 0;
+//         List<Integer> l = new ArrayList<>();
+//         while(i < nums.length){
+//             if(nums[i]!=nums[nums[i]-1]){
+//                 int temp = nums[nums[i]-1];
+//                 nums[nums[i]-1] = nums[i];
+//                 nums[i]=temp;
+//             }else{
+//                 i++;
+//             }
+//         }
+        
+//         for(int j=0;j<nums.length;j++){
+//             if(j+1 != nums[j]){
+//                 l.add(j+1);
+//             }
+//         }
+//         return l; 
+//     }
+// }
