@@ -19,28 +19,3 @@ class Main {
             System.out.println(((n0%n)*(n1%n))%n);
     }
 }
-
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
-// pikachu
