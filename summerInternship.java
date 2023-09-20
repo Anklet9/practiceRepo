@@ -40,16 +40,3 @@ class Main {
         return "YES";
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
