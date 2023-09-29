@@ -1,4 +1,3 @@
-
 class TreeNode{
 	int data;
 	TreeNode left;
@@ -38,8 +37,3 @@ class Solution{
         return Math.max(leftHeight, rightHeight) + 1;
     }
 }
-
-
-
-
-
