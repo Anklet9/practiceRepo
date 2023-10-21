@@ -1,15 +1,15 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.*;
+
 class Main {
-    public static void main(String args[] ) throws Exception {
-       Scanner scanner = new Scanner(System.in);
+    public static void main(String args[]) throws Exception {
+        Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.nextLine();
         String input = scanner.nextLine();
         char[] arr = input.toCharArray();
         warOfMinion(n, arr);
     }
+
     public static void warOfMinion(int n, char[] arr) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < n; i++) {
