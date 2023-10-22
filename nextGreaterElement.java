@@ -32,3 +32,6 @@ public class nextGreaterElement {
     System.out.println(Arrays.toString(result));
   }
 }
+
+
+
