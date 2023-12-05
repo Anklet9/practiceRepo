@@ -29,3 +29,4 @@ public class BeautifulArrangements {
         return count;
     }
 }
+
